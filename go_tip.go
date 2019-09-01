@@ -9,6 +9,20 @@ import (
 // 常量
 const pai = 3.14
 
+func max(a int, b int) int {
+	if a >= b {
+		return a
+	}
+	return b
+}
+
+func min(a int, b int) int {
+	if a <= b {
+		return a
+	}
+	return b
+}
+
 // Named return values
 func split(sum int) (x, y int) {
 	x = sum * 4 / 9
@@ -59,6 +73,12 @@ func main() {
 	slice := []int{2, 3, 4}
 	slice1 := []byte("Hello")
 	fmt.Printf("%d %d %d %d %f", nums, nums1, slice, slice1)
+	// 二维数组
+	var numsVex [][]int
+	for i := 0; i < num; i++ {
+		tmp := make([]int, num)
+		e = append(numsVex, tmp)
+	}
 
 	entry := []string{"Jack", "John", "Jones"}
 	for i, val := range entry {
