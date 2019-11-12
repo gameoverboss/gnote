@@ -1,3 +1,4 @@
+vnote_backup_file_826537664 D:/gameoverboss/github/gnote/base/OJ.md
 # OJ
 [leetcode网站](https://leetcode-cn.com/)
 
@@ -55,7 +56,7 @@ DP; long类型
 注意超时；计算下一个index； 计算最多缝隙；
 
 84  https://leetcode-cn.com/problems/largest-rectangle-in-histogram/
-X 分治  找最低的柱子；然后分别处理左右区域；
+分治  找最低的柱子；然后分别处理左右区域；
 
 85  https://leetcode-cn.com/problems/maximal-rectangle/
 X  DP

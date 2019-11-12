@@ -85,4 +85,6 @@ func main() {
 		fmt.Printf("At position %d, the character %s is present\n", i, val)
 	}
 
+	//
+	n, err := fmt.Sscanf("", "%d", &num)
 }
