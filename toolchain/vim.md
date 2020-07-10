@@ -1,4 +1,4 @@
-vim
+# vim
 
 WSL容器ubuntu
 sudo apt install openssh-server
@@ -8,8 +8,6 @@ Port 22222
 PasswordAuthentication yes
 启动服务
 sudo service ssh start
-
-
 
 
 
