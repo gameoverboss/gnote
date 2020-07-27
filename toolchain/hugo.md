@@ -4,9 +4,6 @@ https://my.oschina.net/u/4364580/blog/3338018
 
 
 
-
-
-
 ```shell
 # use WSL ubuntu, install hugo
 sudo apt install hugo -y
@@ -37,8 +34,13 @@ contentDir = "../gnote/"
 
 # push gitee
 git clone https://gitee.com/gameoverboss/gameoverboss.git
+# 编译 Hugo 依据：仓库编译目录下存在config.toml|json|yaml文件和content目录的时候，会使用hugo生成静态文件。
+git module
 # 创建同名仓库，开启pages服务
 http://gameoverboss.gitee.io/
+
+
+
 
 
 ```

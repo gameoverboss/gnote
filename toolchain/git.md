@@ -22,4 +22,7 @@ https://oschina.gitee.io/learn-git-branching/
 git config --global user.name "gameoverboss"
 git config --global user.email "gameoverboss@163.com"
 
+# submodule
+git submodule add git@gitee.com:gameoverboss/gnote.git content
+
 ```
